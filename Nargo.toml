@@ -1,0 +1,6 @@
+[package]
+name = "hello_world_noir"
+type = "bin"
+authors = [""]
+
+[dependencies]
