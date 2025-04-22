@@ -17,7 +17,7 @@ fn main(
     let mut valid_count = 0;
 
     for i in 0..MAX {
-        // Verify the signature
+        // Verify the signatur
         let sig_ok = verify_signature(signer_keys[i], msg_hash, signatures[i]);
 
         // Verify that the key is on the list
